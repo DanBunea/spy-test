@@ -16,12 +16,6 @@ You can use existing npm React components directly via a [interop call](http://r
 Builds use [Shadow CLJS](https://github.com/thheller/shadow-cljs) for maximum compatibility with NPM libraries. You'll need a [Java SDK](https://adoptopenjdk.net/) (Version 8+, Hotspot) to use it. <br>
 You can [import npm libraries](https://shadow-cljs.github.io/docs/UsersGuide.html#js-deps) using Shadow CLJS. See the [user manual](https://shadow-cljs.github.io/docs/UsersGuide.html) for more information.
 
-### `npm run cards`
-
-Runs the interactive live development enviroment.<br>
-You can use it to design, test, and think about parts of your app in isolation.
-
-This environment uses [Devcards](https://github.com/bhauman/devcards) and [React Testing Library](https://testing-library.com/docs/react-testing-library/intro).
 
 ### `npm run build`
 
@@ -31,13 +25,6 @@ It correctly bundles all code and optimizes the build for the best performance.
 Your app is ready to be deployed!
 
 ## Other useful scripts
-
-### `null` and `npm run e2e`
-
-You can use `null` to run tests a single time, and `npm run e2e` to run the end-to-end test app.
-`npm test` launches tests in interactive watch mode.<br>
-
-See the ClojureScript [testing page](https://clojurescript.org/tools/testing) for more information. E2E tests use [Taiko](https://github.com/getgauge/taiko) to interact with a headless browser.
 
 ### `npm run lint` and `npm run format`
 
