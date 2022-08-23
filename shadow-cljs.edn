@@ -9,6 +9,7 @@
 
   :test {:ns-regexp "-test$"
          :output-to "out/test.js"
+         :compiler-options {:static-fns false}
          :target :node-test}}
 
  :dependencies [[reagent "0.8.1"]
