@@ -16,5 +16,4 @@
 
 (defn email-beatle [beatle-id message]
   (when-let [email (lookup-email beatle-id)]
-    (prn send-message)
     (send-message email message)))
