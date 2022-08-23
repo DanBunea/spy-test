@@ -1,8 +1,10 @@
 node_modules
 public/js
 out
+.lsp
+.calva
 .shadow-cljs
 .nrepl-port
-.clj-kondo/.cache
+.clj-kondo
 yarn-error.log
 report.html
